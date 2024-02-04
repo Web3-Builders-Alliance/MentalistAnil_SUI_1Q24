@@ -1,0 +1,31 @@
+{
+  "name": "prereq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "keygen": "ts-node ./prereqs/keygen.ts",
+    "airdrop": "ts-node ./prereqs/airdrop.ts",
+    "transfer": "ts-node ./prereqs/transfer.ts",
+    "transfer_all": "ts-node ./prereqss/transfer_all.ts",
+    "publish": "ts-node ./publish.ts",
+    "enroll": "ts-node ./prereqs/enroll.ts",
+    "instructor": "ts-node ./prereq/instructor.ts",
+    "tests": "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/*.ts"
+  },
+  "dependencies": {
+    "@mysten/sui.js": "^0.49.0",
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.0.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3",
+    "prettier": "^2.6.2",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.3.5"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "packageId": "0xaa0fcd53ea3f198d6791cf41ba16b03005379384a646dbb995a02bc527d30f82",
+  "bank": {
+    "Bank": "0x4438c2dfdc34bf2cf101576d0b25140b3640f3086ff9b7608e2c2c987066166e",
+    "OwnerCap": "0xe9d3aec5369e9dd5ed76472237c07645d5323d52efce90af8d0e63eeee12bca7",
+    "Constant": "0xcb48204252fb03f7f836d9d77e3c1830c007845200419b3edb555c6c2dec7fd3"
+  },
+  "sui_dollar": {
+    "SUID_cointype": "0xaa0fcd53ea3f198d6791cf41ba16b03005379384a646dbb995a02bc527d30f82::sui_dollar::SUI_DOLLAR",
+    "Capwrapper": "0x96b08a2b0558ae608708c3bbecc378fc44879421b19a87aa4b71d268f5a72b10"
+  },
+  "aggregator_testnet": {
+    "aggregator": "0x84d2b7e435d6e6a5b137bf6f78f34b2c5515ae61cd8591d5ff6cd121a21aa6b7"
+  },
+  "oracle_aggregator_share": {
+    "aggregators_local": "0x924c921098f6b05f50db3e17e71c7ba8e3e6f8f47d09d594dbe6ee1f5453ebf5"
+  },
+  "Bank_Accounts": {
+    "owner_account": "0x449d4764a62bb2a6ce090f9b7f563e2c7f42f4b285a39d8444a6667dc5de690d"
+  },
+  "Price_Object": {
+    "price_id": ""
+  }
+}
